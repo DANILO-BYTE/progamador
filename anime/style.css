@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url('Captura de tela 2024-11-21 184018.png') no-repeat center center fixed;
+    background-size: cover;   
+    color:white;
+}
+
+input {
+    width: 20%;
+    padding: 10px ;
+    margin: 8px 0;
+    border: 1px solid #ccc; 
+    border-radius: 25px;
+    background-color: rgb(161, 158, 158);
+}
+input::placeholder {
+    color: rgb(0, 0, 0);
+}
+button {
+    background-color: black; 
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
