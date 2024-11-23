@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas Favoritos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Artistas da Galera</h1>
+    <form id="artista-form">
+        <input type="text" id="nome" placeholder="Nome do Artista:" required>
+        <input type="text" id="estilo" placeholder="Estilo de Música:" required>
+        <input type="text" id="genero" placeholder="Genero do Artista:" required>
+        <button type="submit">Adicionar</button>
+    </form>
+    <div id="artista-list"></div>
+
+    <h1>Albuns Favoritos</h1>
+    <form id="albuns-form">
+        <input type="text" id="titulo" placeholder="Titulo do album:" required>
+        <input type="text" id="data_criacao" placeholder="Data de Criação:" required>
+        <input type="number" id="qnt_musica" placeholder="Quantidade de Músicas:" required>
+        <button type="submit">Adicionar</button>
+    </form>
+    <div id="albuns-list"></div>
+
+    <h1>Artistas e seus Albuns</h1>
+    <div id="possui-list"></div>
+
+    <script src="script.js"></script>  
+</body>
+</html>
